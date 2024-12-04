@@ -1,11 +1,39 @@
-# SWE INTERVIEW TEST 
-THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
+# Simple Card List Application - Setup Guide
 
-1. Clone this repo to your local machine.
-2. Read `Assignment Requirements` carefully and follow it.
-4. Please commit your entire code to `your own Github repository` 
-5. On your repo, please add step-by-step instructions on how to launch (for both the Backend and Frontend) to the `README.md`
-6. Share your repo link with us via email.
+## Quick Start
 
-HAPPY CODING! </br>
-A Round Entertainment
+### Backend Setup
+```bash
+# 1. Navigate to backend directory
+cd backend
+
+# 2. Install dependencies
+npm install express cors dotenv
+
+# 3. Start server
+node index.js
+```
+Server will run on http://localhost:5888
+
+### Frontend Setup
+```bash
+# 1. Open new terminal and navigate to frontend directory
+cd frontend
+
+# 2. Install dependencies
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled axios
+
+# 3. Start application
+npm start
+```
+Application will open automatically at http://localhost:3000
+
+### Run Tests
+```bash
+# In frontend directory
+npm test
+```
+
+## Note
+- Keep both terminal windows open (backend and frontend)
+- Backend must be running for frontend to work properly
